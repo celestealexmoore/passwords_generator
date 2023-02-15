@@ -50,7 +50,6 @@ generateBtn.onclick = function() {
 
     for(let i = 0; i < sanitizedCharCount; i++) {
         finalPassword.push(passwordChoices[i]);
-        console.log(finalPassword)
     }
     boxTextPrompt.innerText = finalPassword.join('');
     clicked = true;
